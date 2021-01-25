@@ -4,13 +4,13 @@ function getPrice(guests){
     let cost = 0;
     // Your code here
     if (guests <= 50) {
-    price = 4000;
+    cost = 4000;
 } else if (guests <= 100) {
-    price = 10000;
+    cost = 10000;
 } else if (guests <= 200) {
-    price = 15000;
+    cost = 15000;
 } else {
-    price = 20000;
+    cost = 20000;
 }
     return cost;
 }

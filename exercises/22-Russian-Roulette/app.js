@@ -1,4 +1,4 @@
-var bulletPosition = 4;
+let bulletPosition = 4;
 
 const spinChamber = () => {
 	var chamberPosition = Math.floor((Math.random() * 6) + 1);
