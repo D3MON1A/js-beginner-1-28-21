@@ -1,7 +1,7 @@
-function getColor(selection)
+function getColor(colorname)
 {
     
-	switch(selection){
+	switch(colorname){
         // Add more options here
         case "red":
             return true;
@@ -18,10 +18,10 @@ function getColor(selection)
 	}
 }
 
-var colorname = window.prompt('What color do you want?');
-var isAvailable = getColor(colorname);
+let colorname = window.prompt('What color do you want?');
+let isAvailable = getColor(colorname);
 
-if(isAvailable)
+if(isAvailable ==true)
 	console.log('Good news! That color is available');
 else 
 	console.log('We are sorry, that color is not available');
