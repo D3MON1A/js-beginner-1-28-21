@@ -1,20 +1,20 @@
 let guests = prompt('How many people are coming to your wedding?');
 function getPrice(guests){
-    var cost = 0;
+    let cost = 0;
     if( guests <= 50){
-        var cost = 4000;
+        let cost = 4000;
         return cost
     }
-    if( guests <= 100 && guests > 50){
-        var cost = 10000;
+    else if( guests <= 100 && guests > 50){
+        let cost = 10000;
         return cost
     }
-    if( guests <= 200 && guests > 100){
-        var cost = 15000;
+    else if( guests <= 200 && guests > 100){
+        let cost = 15000;
         return cost
     }
     else{
-        var cost = 20000;
+        let cost = 20000;
         return cost
     }
     // Your code here

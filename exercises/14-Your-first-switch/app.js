@@ -19,7 +19,7 @@ function getColor(colorname)
 }
 
 let colorname = window.prompt('What color do you want?');
-let isAvailable = getColor(colorname);
+let isAvailable = getColor(colorname.trim());
 
 if(isAvailable ==true)
 	console.log('Good news! That color is available');
