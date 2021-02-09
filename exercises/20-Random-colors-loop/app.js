@@ -17,11 +17,11 @@ function getColor(colorNumber)
 }
 
 function getAllStudentColors(){
-    var i = 0;
+    let i = 0;
 	while(i < 10){
         i++;
-        var colorNumber = (Math.floor(Math.random() * 4) + 1);
-        var exampleColor = getColor(colorNumber);
+        let colorNumber = (Math.floor(Math.random() * 4) + 1);
+        let exampleColor = getColor(colorNumber);
         console.log(exampleColor);
     }
 }
