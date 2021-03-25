@@ -20,3 +20,7 @@ function fizzBuzz() {
 }
 
 fizzBuzz();
+
+
+
+// Students get stuck on this exercise, please focus on a detailed explanation
